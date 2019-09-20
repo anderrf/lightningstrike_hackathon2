@@ -47,24 +47,65 @@
 
             <div class="col-md-3">
                 <div class="card">
-                    <img src="img/Brasao-Mongagua.png" alt="" class="img-thumbnail">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h3>Plataforma de pesca</h3>
-                        </div>
+                  <img src="img/plataforma.jpg" alt="" class="img-thumbnail">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h3>PLATAFORMA</h3>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <label for="">Descrição:</label>
-                            <p>Local perfeito para pescadores e para quem curte tirar lindas fotos e curtir belas paisagens! Ao pôr-do-sol então, o espetáculo fica completo!</p>
+                  </div>
+    
+                  <div class="row">
+                    <div class="col-md-12">
+                      <label for="">Descrição</label>
+                      <p>Local perfeito para pescadores e para quem curte tirar lindas fotos e curtir belas paisagens! Ao pôr-do-sol então, o espetáculo fica completo!</p>
+                      <a href="" class="btn btn-primary" data-toggle="modal" data-target="#local" id="btnLocal">LOCALIZAÇÃO</a>
+                      <a href="" class="btn btn-success" data-toggle="modal" data-target="#parque">SOBRE</a><br><br>
+    
+                      <!--Modal das Informações da plataforma-->
+                      <div class="modal" id="parque" tabindex="-1" role="dialog">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h3 class="modal-title">Plataforma</h3>
+                              <button type="button" class="close" data-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="row">
+                                  <p>A plataforma marítima de pesca amadora é o grande orgulho da cidade. Ela tem 400 metros de extensão mar adentro e formato em ‘T’. Cada braço tem 90 metros de comprimento. Também é a maior plataforma da América Latina.
+                                    Foram gastos R$ 8 milhões na recuperação das vigas, das lajes - de toda estrutura. A plataforma ganhou, inclusive, 53 postes com lâmpadas de vapor de sódio. Isso vai permitir que ela fique aberta nas 24 horas do dia, mesmo que haja nevoeiro no lugar.</p>
+                              </div>
+                            </div>
+    
+                            <div class="modal-footer">
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#local" id="btnLocal1">LOCALIZAÇÃO</button>
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">SAIR</button>
+                            </div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
+                      </div>
+    
+                      <!--Modal da localicação da plataforma-->
+                      <div class="modal fade" id="local" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document" style="width: 50%; height: 500px";>
+                            <div id="map" class="modal-content">
+                              <div class="modal-header">
+                                <h4>LOCALIZAÇÃO</h4>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3641.070459261486!2d-46.69486108482108!3d-24.13416358887944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce2823b1112a8f%3A0x8644bba86f77ea9a!2sPlataforma%20de%20Pesca!5e0!3m2!1spt-BR!2sbr!4v1568924244273!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                              <button type="button" class="close" data-dismiss="modal">
+                              </button>
+                              </div>
+    
+                              <div class="modal-footer">
+                                <a href="turismo.html"><button type="button" class="btn btn-danger" data-dismiss="modal">VOLTAR</button></a>
+                              </div>
+                            </div>
+                          </div>
                         </div>
-                    </div>
-                </div>
-            </div>
+    
+                    </div><!--linha da página fechada-->
+                  </div><!--Primeira row fechada-->
+                </div><!--Card fechado-->
+              </div><!--col-md-03 fechada-->
 
         </div>
 
