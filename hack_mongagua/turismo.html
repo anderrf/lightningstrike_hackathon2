@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <title>Mongaguá - Turismo</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMenu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/Brasao-Mongagua.png" alt="Brand" class="d-inline-block mr-1">
+                    <p class="d-inline-block mr-1">Início</p>
+                </a>
+            </div>
+                <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="turismo.html">Turismo</a></li>
+                  <li><a href="eventos.html">Eventos</a></li>
+                  <li><a href="restaurantes.html">Restaurantes</a></li>
+                  <li><a href="hospedagem.html">Hospedagem</a></li>
+                  <li><a href="ajuda.html">Ajuda</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" style="background-color: white">
+
+
+        <div class="row linha">
+            <div class="col-md-6">
+                <h2>Pontos Turísticos</h2>
+            </div>
+        </div>
+
+        <hr>
+
+        <!--Parte da Informação da Plataforma-->
+        <div class="row">
+          <!---Primeira parte das telas -->
+          <div class="col-md-3">
+            <div class="card">
+              <img src="img/plataforma.jpg" alt="" class="img-thumbnail">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3>PLATAFORMA</h3>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <label for="">Descrição</label>
+                  <p>Local perfeito para pescadores e para quem curte tirar lindas fotos e curtir belas paisagens! Ao pôr-do-sol então, o espetáculo fica completo!</p>
+                  <a href="" class="btn btn-primary" data-toggle="modal" data-target="#local" id="btnLocal">LOCALIZAÇÃO</a>
+                  <a href="" class="btn btn-success" data-toggle="modal" data-target="#parque">SOBRE</a><br><br>
+
+                  <!--Modal das Informações da plataforma-->
+                  <div class="modal" id="parque" tabindex="-1" role="dialog">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">Plataforma</h5>
+                          <button type="button" class="close" data-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="row h6">
+                              <h6>DESCRIÇÃO: Este bacharel faz o planejamento, a organização, a promoção e a divulgação de viagens, eventos e atividades de lazer e de negócios. Elabora roteiros, acompanha turistas, organiza feiras, congressos e exposições. Em agências, operadoras e sites turísticos, comanda as vendas de passagens e reservas em hotéis.
+                                  Pode gerenciar hotéis, empresas de eventos e empreendimentos de lazer, como parques temáticos. Em prefeituras e órgãos públicos, coordena a exploração turística de uma região, promovendo e divulgando as atrações locais. Você pode ingressar na carreira como tecnólogo.</h6>
+                          </div>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#local" id="btnLocal1">LOCALIZAÇÃO</button>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">SAIR</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--Modal da localicação da plataforma-->
+                  <div class="modal fade" id="local" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document" style="width: 50%; height: 500px";>
+                        <div id="map" class="modal-content">
+                          <div class="modal-header">
+                            <h5>LOCALIZAÇÃO</h5>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3641.070459261486!2d-46.69486108482108!3d-24.13416358887944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce2823b1112a8f%3A0x8644bba86f77ea9a!2sPlataforma%20de%20Pesca!5e0!3m2!1spt-BR!2sbr!4v1568924244273!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                          <button type="button" class="close" data-dismiss="modal">
+                          </button>
+                          </div>
+
+                          <div class="modal-footer">
+                            <a href="turismo.html"><button type="button" class="btn btn-danger" data-dismiss="modal">VOLTAR</button></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                </div><!--linha da página fechada-->
+              </div><!--Primeira row fechada-->
+            </div><!--Card fechado-->
+          </div><!--col-md-03 fechada-->
+
+          <!--Parte da Informação do poço-->
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/poço.jpg" alt="" class="img-thumbnail">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h3>POÇO DAS ANTAS</h3>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-12">
+                    <label for="">Descrição</label>
+                    <p>Local perfeito para pescadores e para quem curte tirar lindas fotos e curtir belas paisagens! Ao pôr-do-sol então, o espetáculo fica completo!</p>
+                    <a href="" class="btn btn-primary" data-toggle="modal" data-target="#local1" id="btnLocal">LOCALIZAÇÃO</a>
+                    <a href="" class="btn btn-success" data-toggle="modal" data-target="#parque1">SOBRE</a><br><br>
+
+                    <!--Modal das Informações do poço-->
+                    <div class="modal" id="parque1" tabindex="-1" role="dialog">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title">Poço das Antas</h5>
+                            <button type="button" class="close" data-dismiss="modal"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row h6">
+                                <h6>DESCRIÇÃO: Este bacharel faz o planejamento, a organização, a promoção e a divulgação de viagens, eventos e atividades de lazer e de negócios. Elabora roteiros, acompanha turistas, organiza feiras, congressos e exposições. Em agências, operadoras e sites turísticos, comanda as vendas de passagens e reservas em hotéis.
+                                    Pode gerenciar hotéis, empresas de eventos e empreendimentos de lazer, como parques temáticos. Em prefeituras e órgãos públicos, coordena a exploração turística de uma região, promovendo e divulgando as atrações locais. Você pode ingressar na carreira como tecnólogo.</h6>
+                            </div>
+                          </div>
+
+                          <div class="modal-footer">
+                              <button class="btn btn-primary" data-toggle="modal" data-target="#local1" id="btnLocal1">LOCALIZAÇÃO</button>
+                              <button type="button" class="btn btn-danger" data-dismiss="modal">SAIR</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!--Modal da localicação do poço-->
+                    <div class="modal fade" id="local1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document" style="width: 50%; height: 500px";>
+                          <div id="map" class="modal-content">
+                            <div class="modal-header">
+                              <h5>LOCALIZAÇÃO</h5>
+                              <iframe src="" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                              <button type="button" class="close" data-dismiss="modal">
+                            </button>
+                            </div>
+
+                            <div class="modal-footer">
+                              <a href="turismo.html"><button type="button" class="btn btn-danger" data-dismiss="modal">VOLTAR</button></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                  </div><!--linha da página fechada-->
+                </div><!--Primeira row fechada-->
+              </div><!--Card fechado-->
+            </div><!--col-md-03 fechada-->
+
+          <!--Parte da Informação da igreja -->
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="img/igreja.jpg" alt="" class="img-thumbnail">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h3>IGREJA MATRIZ NOSSA SSENHORA DA CONCEIÇÃO APARECIDA</h3>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-12">
+                      <label for="">Descrição</label>
+                      <p>Local perfeito para pescadores e para quem curte tirar lindas fotos e curtir belas paisagens! Ao pôr-do-sol então, o espetáculo fica completo!</p>
+                      <a href="" class="btn btn-primary" data-toggle="modal" data-target="#local3" id="btnLocal">LOCALIZAÇÃO</a>
+                      <a href="" class="btn btn-success" data-toggle="modal" data-target="#parque3">SOBRE</a><br><br>
+
+                      <!--Modal das Informações da igreja-->
+                      <div class="modal" id="parque3" tabindex="-1" role="dialog">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Plataforma</h5>
+                              <button type="button" class="close" data-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="row h6">
+                                  <h6>DESCRIÇÃO: Este bacharel faz o planejamento, a organização, a promoção e a divulgação de viagens, eventos e atividades de lazer e de negócios. Elabora roteiros, acompanha turistas, organiza feiras, congressos e exposições. Em agências, operadoras e sites turísticos, comanda as vendas de passagens e reservas em hotéis.
+                                      Pode gerenciar hotéis, empresas de eventos e empreendimentos de lazer, como parques temáticos. Em prefeituras e órgãos públicos, coordena a exploração turística de uma região, promovendo e divulgando as atrações locais. Você pode ingressar na carreira como tecnólogo.</h6>
+                              </div>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#local3" id="btnLocal1">LOCALIZAÇÃO</button>
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">SAIR</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!--Modal da localicação da igreja -->
+                      <div class="modal fade" id="local3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document" style="width: 50%; height: 500px";>
+                            <div id="map" class="modal-content">
+                              <div class="modal-header">
+                                <h5>LOCALIZAÇÃO</h5>
+                                <iframe src="" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                                <button type="button" class="close" data-dismiss="modal">
+                              </button>
+                              </div>
+
+                              <div class="modal-footer">
+                                <a href="turismo.html"><button type="button" class="btn btn-danger" data-dismiss="modal">VOLTAR</button></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                    </div><!--linha da página fechada-->
+                  </div><!--Primeira row fechada-->
+                </div><!--Card fechado-->
+              </div><!--col-md-03 fechada-->
+
+
+          <!--Parte da Informação do parque -->
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="img/parque.jpg" alt="" class="img-thumbnail">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h3>PARQUE ECOLÓGICO</h3>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-12">
+                      <label for="">Descrição</label>
+                      <p>Local perfeito para pescadores e para quem curte tirar lindas fotos e curtir belas paisagens! Ao pôr-do-sol então, o espetáculo fica completo!</p>
+                      <a href="" class="btn btn-primary" data-toggle="modal" data-target="#local4" id="btnLocal">LOCALIZAÇÃO</a>
+                      <a href="" class="btn btn-success" data-toggle="modal" data-target="#parque4">SOBRE</a><br><br>
+
+                      <!--Modal das Informações do parque-->
+                      <div class="modal" id="parque4" tabindex="-1" role="dialog">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Parque Ecológico</h5>
+                              <button type="button" class="close" data-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="row h6">
+                                  <h6>DESCRIÇÃO: Este bacharel faz o planejamento, a organização, a promoção e a divulgação de viagens, eventos e atividades de lazer e de negócios. Elabora roteiros, acompanha turistas, organiza feiras, congressos e exposições. Em agências, operadoras e sites turísticos, comanda as vendas de passagens e reservas em hotéis.
+                                      Pode gerenciar hotéis, empresas de eventos e empreendimentos de lazer, como parques temáticos. Em prefeituras e órgãos públicos, coordena a exploração turística de uma região, promovendo e divulgando as atrações locais. Você pode ingressar na carreira como tecnólogo.</h6>
+                              </div>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#local4" id="btnLocal1">LOCALIZAÇÃO</button>
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">SAIR</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!--Modal da localicação do parque-->
+                      <div class="modal fade" id="local4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document" style="width: 50%; height: 500px";>
+                            <div id="map" class="modal-content">
+                              <div class="modal-header">
+                                <h5>LOCALIZAÇÃO</h5>
+                                <iframe src="" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                                <button type="button" class="close" data-dismiss="modal">
+                              </button>
+                              </div>
+
+                              <div class="modal-footer">
+                                <a href="turismo.html"><button type="button" class="btn btn-danger" data-dismiss="modal">VOLTAR</button></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                    </div><!--linha da página fechada-->
+                  </div><!--Primeira row fechada-->
+                </div><!--Card fechado-->
+              </div><!--col-md-03 fechada-->
+            </div><!--A row inteira fechada-->
+
+          <!--Parte da Informação do morro-->
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/morro.jpg" alt="" class="img-thumbnail">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h3>MORRO DA PADROEIRA</h3>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-12">
+                    <label for="">Descrição</label>
+                    <p>Local perfeito para pescadores e para quem curte tirar lindas fotos e curtir belas paisagens! Ao pôr-do-sol então, o espetáculo fica completo!</p>
+                    <a href="" class="btn btn-primary" data-toggle="modal" data-target="#local5" id="btnLocal">LOCALIZAÇÃO</a>
+                    <a href="" class="btn btn-success" data-toggle="modal" data-target="#parque5">SOBRE</a><br><br>
+
+                    <!--Modal das Informações do morro-->
+                    <div class="modal" id="parque5" tabindex="-1" role="dialog">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title">Morro da Pedroeira</h5>
+                            <button type="button" class="close" data-dismiss="modal"></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="row h6">
+                                <h6>DESCRIÇÃO: Este bacharel faz o planejamento, a organização, a promoção e a divulgação de viagens, eventos e atividades de lazer e de negócios. Elabora roteiros, acompanha turistas, organiza feiras, congressos e exposições. Em agências, operadoras e sites turísticos, comanda as vendas de passagens e reservas em hotéis.
+                                    Pode gerenciar hotéis, empresas de eventos e empreendimentos de lazer, como parques temáticos. Em prefeituras e órgãos públicos, coordena a exploração turística de uma região, promovendo e divulgando as atrações locais. Você pode ingressar na carreira como tecnólogo.</h6>
+                            </div>
+                          </div>
+
+                          <div class="modal-footer">
+                              <button class="btn btn-primary" data-toggle="modal" data-target="#local5" id="btnLocal1">LOCALIZAÇÃO</button>
+                              <button type="button" class="btn btn-danger" data-dismiss="modal">SAIR</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!--Modal da localicação do morro-->
+                    <div class="modal fade" id="local5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document" style="width: 50%; height: 500px";>
+                          <div id="map" class="modal-content">
+                            <div class="modal-header">
+                              <h5>LOCALIZAÇÃO</h5>
+                              <iframe src="" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                              <button type="button" class="close" data-dismiss="modal">
+                            </button>
+                            </div>
+
+                            <div class="modal-footer">
+                              <a href="turismo.html"><button type="button" class="btn btn-danger" data-dismiss="modal">VOLTAR</button></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                  </div><!--linha da página fechada-->
+                </div><!--Primeira row fechada-->
+              </div><!--Card fechado-->
+            </div><!--col-md-03 fechada-->
+
+          <!--Parte da Informação do Raul Cortez-->
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="img/raul.jpg" alt="" class="img-thumbnail">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h3>TEATRO RAUL CORTEZ</h3>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-12">
+                      <label for="">Descrição</label>
+                      <p>Local perfeito para pescadores e para quem curte tirar lindas fotos e curtir belas paisagens! Ao pôr-do-sol então, o espetáculo fica completo!</p>
+                      <a href="" class="btn btn-primary" data-toggle="modal" data-target="#local7" id="btnLocal">LOCALIZAÇÃO</a>
+                      <a href="" class="btn btn-success" data-toggle="modal" data-target="#parque7">SOBRE</a><br><br>
+
+                      <!--Modal das Informações do Raul Cortez-->
+                      <div class="modal" id="parque7" tabindex="-1" role="dialog">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Raul Cortez</h5>
+                              <button type="button" class="close" data-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="row h6">
+                                  <h6>DESCRIÇÃO: Este bacharel faz o planejamento, a organização, a promoção e a divulgação de viagens, eventos e atividades de lazer e de negócios. Elabora roteiros, acompanha turistas, organiza feiras, congressos e exposições. Em agências, operadoras e sites turísticos, comanda as vendas de passagens e reservas em hotéis.
+                                      Pode gerenciar hotéis, empresas de eventos e empreendimentos de lazer, como parques temáticos. Em prefeituras e órgãos públicos, coordena a exploração turística de uma região, promovendo e divulgando as atrações locais. Você pode ingressar na carreira como tecnólogo.</h6>
+                              </div>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#local7" id="btnLocal1">LOCALIZAÇÃO</button>
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">SAIR</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!--Modal da localicação do Raul Cortez-->
+                      <div class="modal fade" id="local7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document" style="width: 50%; height: 500px";>
+                            <div id="map" class="modal-content">
+                              <div class="modal-header">
+                                <h5>LOCALIZAÇÃO</h5>
+                                <iframe src="" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                                <button type="button" class="close" data-dismiss="modal">
+                              </button>
+                              </div>
+
+                              <div class="modal-footer">
+                                <a href="turismo.html"><button type="button" class="btn btn-danger" data-dismiss="modal">VOLTAR</button></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                    </div><!--linha da página fechada-->
+                  </div><!--Primeira row fechada-->
+                </div><!--Card fechado-->
+              </div><!--col-md-03 fechada-->
+
+              <!--Parte da Informação da Feira-->
+              <div class="col-md-3">
+                <div class="card">
+                  <img src="img/feirinha.jpg" alt="" class="img-thumbnail">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h3>FEIRA DE ARTESANATO</h3>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-12">
+                      <label for="">Descrição</label>
+                      <p>Local perfeito para pescadores e para quem curte tirar lindas fotos e curtir belas paisagens! Ao pôr-do-sol então, o espetáculo fica completo!</p>
+                      <a href="" class="btn btn-primary" data-toggle="modal" data-target="#local8" id="btnLocal">LOCALIZAÇÃO</a>
+                      <a href="" class="btn btn-success" data-toggle="modal" data-target="#parque8">SOBRE</a><br><br>
+
+                      <!--Modal das Informações da feira-->
+                      <div class="modal" id="parque8" tabindex="-1" role="dialog">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Feira de Artesanato</h5>
+                              <button type="button" class="close" data-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="row h6">
+                                  <h6>DESCRIÇÃO: Este bacharel faz o planejamento, a organização, a promoção e a divulgação de viagens, eventos e atividades de lazer e de negócios. Elabora roteiros, acompanha turistas, organiza feiras, congressos e exposições. Em agências, operadoras e sites turísticos, comanda as vendas de passagens e reservas em hotéis.
+                                      Pode gerenciar hotéis, empresas de eventos e empreendimentos de lazer, como parques temáticos. Em prefeituras e órgãos públicos, coordena a exploração turística de uma região, promovendo e divulgando as atrações locais. Você pode ingressar na carreira como tecnólogo.</h6>
+                              </div>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button class="btn btn-primary" data-toggle="modal" data-target="#local8" id="btnLocal1">LOCALIZAÇÃO</button>
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">SAIR</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!--Modal da localicação da feira-->
+                      <div class="modal fade" id="local8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document" style="width: 50%; height: 500px";>
+                            <div id="map" class="modal-content">
+                              <div class="modal-header">
+                                <h5>LOCALIZAÇÃO</h5>
+                                <iframe src="" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                                <button type="button" class="close" data-dismiss="modal">
+                              </button>
+                              </div>
+
+                              <div class="modal-footer">
+                                <a href="turismo.html"><button type="button" class="btn btn-danger" data-dismiss="modal">VOLTAR</button></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                    </div><!--linha da página fechada-->
+                  </div><!--Primeira row fechada-->
+                </div><!--Card fechado-->
+              </div><!--col-md-03 fechada-->
+
+              <!--Parte da Informação da skatePark-->
+                <div class="col-md-3">
+                    <div class="card">
+                      <img src="img/skate_park.jpg" alt="" class="img-thumbnail">
+                        <div class="row">
+                          <div class="col-md-12">
+                            <h3>SKATE PARK</h3>
+                          </div>
+                        </div>
+
+                        <div class="row">
+                          <div class="col-md-12">
+                            <label for="">Descrição</label>
+                              <p>Local perfeito para pescadores e para quem curte tirar lindas fotos e curtir belas paisagens! Ao pôr-do-sol então, o espetáculo fica completo!</p>
+                              <a href="" class="btn btn-primary" data-toggle="modal" data-target="#local9" id="btnLocal">LOCALIZAÇÃO</a>
+                              <a href="" class="btn btn-success" data-toggle="modal" data-target="#parque9">SOBRE</a><br><br>
+
+                      <!--Modal das Informações da skatePark-->
+                        <div class="modal" id="parque9" tabindex="-1" role="dialog">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title">Feira de Artesanato</h5>
+                                <button type="button" class="close" data-dismiss="modal"></button>
+                              </div>
+                              <div class="modal-body">
+                                <div class="row h6">
+                                      <h6>DESCRIÇÃO: Este bacharel faz o planejamento, a organização, a promoção e a divulgação de viagens, eventos e atividades de lazer e de negócios. Elabora roteiros, acompanha turistas, organiza feiras, congressos e exposições. Em agências, operadoras e sites turísticos, comanda as vendas de passagens e reservas em hotéis.
+                                          Pode gerenciar hotéis, empresas de eventos e empreendimentos de lazer, como parques temáticos. Em prefeituras e órgãos públicos, coordena a exploração turística de uma região, promovendo e divulgando as atrações locais. Você pode ingressar na carreira como tecnólogo.</h6>
+                                    </div>
+                                  </div>
+
+                                  <div class="modal-footer">
+                                      <button class="btn btn-primary" data-toggle="modal" data-target="#local9" id="btnLocal1">LOCALIZAÇÃO</button>
+                                      <button type="button" class="btn btn-danger" data-dismiss="modal">SAIR</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <!--Modal da localicação da feira-->
+                              <div class="modal fade" id="local9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog" role="document" style="width: 50%; height: 500px";>
+                                    <div id="map" class="modal-content">
+                                      <div class="modal-header">
+                                        <h5>LOCALIZAÇÃO</h5>
+                                        <iframe src="" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                                        <button type="button" class="close" data-dismiss="modal">
+                                      </button>
+                                      </div>
+
+                                      <div class="modal-footer">
+                                        <a href="turismo.html"><button type="button" class="btn btn-danger" data-dismiss="modal">VOLTAR</button></a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                            </div><!--linha da página fechada-->
+                          </div><!--Primeira row fechada-->
+                        </div><!--Card fechado-->
+                      </div><!--col-md-03 fechada-->
+                    </div><!--A row inteira fechada-->
+
+
+
+</div><!--Container da página-->
+
+
+
+
+
+
+        <!--<hr>
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/plataforma.jpg" alt="" class="img-thumbnail">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>Plataforma</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label for="">Descrição:</label>
+                            <p>Local perfeito para pescadores e para quem curte tirar lindas fotos e curtir belas paisagens! Ao pôr-do-sol então, o espetáculo fica completo!</p>
+                            <a href="" class="btn btn-primary" data-toggle="modal" data-target="#local" id="btnLocal">LOCALIZAÇÃO</a>
+                            <a href="" class="btn btn-success" data-toggle="modal" data-target="#parque">SOBRE</a><br><br>
+
+                            <div class="modal" id="parque" tabindex="-1" role="dialog">
+                                 <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                       <div class="modal-header">
+                                          <h5 class="modal-title">PARQUE ECOLÓGICO</h5>
+                                                <button type="button" class="close" data-dismiss="modal">
+                                              </button>
+                                            </div>
+
+                            <div class="modal-body">
+                                <div class="row h6">
+                                    <h6>DESCRIÇÃO: Este bacharel faz o planejamento, a organização, a promoção e a divulgação de viagens, eventos e atividades de lazer e de negócios. Elabora roteiros, acompanha turistas, organiza feiras, congressos e exposições. Em agências, operadoras e sites turísticos, comanda as vendas de passagens e reservas em hotéis.
+
+                                    Pode gerenciar hotéis, empresas de eventos e empreendimentos de lazer, como parques temáticos. Em prefeituras e órgãos públicos, coordena a exploração turística de uma região, promovendo e divulgando as atrações locais. Você pode ingressar na carreira como tecnólogo.</h6>
+                               </div>
+                           </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#local" id="btnLocal1">LOCALIZAÇÃO</button>
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">SAIR</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="modal fade" id="local" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document" style="width: 50%; height: 500px";>
+                          <div id="map" class="modal-content">
+                            <div class="modal-header">
+                              <h5>LOCALIZAÇÃO</h5>
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3641.418263913369!2d-46.68096998488982!3d-24.12194508440748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce280e6bbd43ed%3A0x9a808204bd559fab!2sAv.+Monteiro+Lobato%2C+8000+-+Balne%C3%A1rio+Ita%C3%B3ca%2C+Mongagu%C3%A1+-+SP%2C+11730-000!5e0!3m2!1spt-BR!2sbr!4v1533318390082" frameborder="0" allowfullscreen id="mapa"></iframe>
+                            <button type="button" class="close" data-dismiss="modal">
+                            </button>
+                            </div>
+
+                            <div class="modal-footer">
+                              <a href="turismo.html"><button type="button" class="btn btn-danger" data-dismiss="modal">VOLTAR</button></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+              <div class="card">
+                  <img src=img/poço.jpg alt="" class="img-thumbnail">
+                  <div class="row">
+                      <div class="col-md-12">
+                          <h3>Plataforma</h3>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-12">
+                          <label for="">Descrição:</label>
+                          <p>Local perfeito para pescadores e para quem curte tirar lindas fotos e curtir belas paisagens! Ao pôr-do-sol então, o espetáculo fica completo!</p>
+                          <a href="" class="btn btn-primary" data-toggle="modal" data-target="#local1" id="btnLocal">LOCALIZAÇÃO</a>
+                          <a href="" class="btn btn-success" data-toggle="modal" data-target="#parque">SOBRE</a><br><br>
+
+                          <div class="modal" id="parque" tabindex="-1" role="dialog">
+                               <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                     <div class="modal-header">
+                                        <h5 class="modal-title">PARQUE ECOLÓGICO</h5>
+                                              <button type="button" class="close" data-dismiss="modal">
+                                            </button>
+                                          </div>
+
+                          <div class="modal-body">
+                              <div class="row h6">
+                                  <h6>DESCRIÇÃO: Este bacharel faz o planejamento, a organização, a promoção e a divulgação de viagens, eventos e atividades de lazer e de negócios. Elabora roteiros, acompanha turistas, organiza feiras, congressos e exposições. Em agências, operadoras e sites turísticos, comanda as vendas de passagens e reservas em hotéis.
+
+                                  Pode gerenciar hotéis, empresas de eventos e empreendimentos de lazer, como parques temáticos. Em prefeituras e órgãos públicos, coordena a exploração turística de uma região, promovendo e divulgando as atrações locais. Você pode ingressar na carreira como tecnólogo.</h6>
+                             </div>
+                         </div>
+                      <div class="modal-footer">
+                          <button class="btn btn-primary" data-toggle="modal" data-target="#local1" id="btnLocal1">LOCALIZAÇÃO</button>
+                        <a href="turismo.html"><button type="button" class="btn btn-danger" data-dismiss="modal">SAIR</button></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="modal fade" id="local1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document" style="width: 50%; height: 500px";>
+                        <div id="map" class="modal-content">
+                          <div class="modal-header">
+                            <h5>LOCALIZAÇÃO</h5>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3641.418263913369!2d-46.68096998488982!3d-24.12194508440748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce280e6bbd43ed%3A0x9a808204bd559fab!2sAv.+Monteiro+Lobato%2C+8000+-+Balne%C3%A1rio+Ita%C3%B3ca%2C+Mongagu%C3%A1+-+SP%2C+11730-000!5e0!3m2!1spt-BR!2sbr!4v1533318390082" frameborder="0" allowfullscreen id="mapa"></iframe>
+                          <button type="button" class="close" data-dismiss="modal">
+                          </button>
+                          </div>
+
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">VOLTAR</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <img src="img/igreja.jpg" alt="" class="img-thumbnail">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/igreja.jpg" class="img-thumbnail">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Igreja Matriz Nossa Senhora da Conceição Aparecida </h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <label for="">Descrição:</label>
+                        <p>Local perfeito para pescadores e para quem curte tirar lindas fotos e curtir belas paisagens! Ao pôr-do-sol então, o espetáculo fica completo!</p>
+                        <a href="" class="btn btn-primary" data-toggle="modal" data-target="#local2" id="btnLocal">LOCALIZAÇÃO</a>
+                        <a href="" class="btn btn-success" data-toggle="modal" data-target="#parque">SOBRE</a><br><br>
+
+                        <div class="modal" id="parque" tabindex="-1" role="dialog">
+                             <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                   <div class="modal-header">
+                                      <h5 class="modal-title">PARQUE ECOLÓGICO</h5>
+                                            <button type="button" class="close" data-dismiss="modal">
+                                          </button>
+                                        </div>
+
+                        <div class="modal-body">
+                            <div class="row h6">
+                                <h6>DESCRIÇÃO: Este bacharel faz o planejamento, a organização, a promoção e a divulgação de viagens, eventos e atividades de lazer e de negócios. Elabora roteiros, acompanha turistas, organiza feiras, congressos e exposições. Em agências, operadoras e sites turísticos, comanda as vendas de passagens e reservas em hotéis.
+
+                                Pode gerenciar hotéis, empresas de eventos e empreendimentos de lazer, como parques temáticos. Em prefeituras e órgãos públicos, coordena a exploração turística de uma região, promovendo e divulgando as atrações locais. Você pode ingressar na carreira como tecnólogo.</h6>
+                           </div>
+                       </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#local2" id="btnLocal1">LOCALIZAÇÃO</button>
+                      <a href="turismo.html"><button type="button" class="btn btn-danger" data-dismiss="modal">SAIR</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="modal fade" id="local2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document" style="width: 50%; height: 500px";>
+                      <div id="map" class="modal-content">
+                        <div class="modal-header">
+                          <h5>LOCALIZAÇÃO</h5>
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3641.418263913369!2d-46.68096998488982!3d-24.12194508440748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce280e6bbd43ed%3A0x9a808204bd559fab!2sAv.+Monteiro+Lobato%2C+8000+-+Balne%C3%A1rio+Ita%C3%B3ca%2C+Mongagu%C3%A1+-+SP%2C+11730-000!5e0!3m2!1spt-BR!2sbr!4v1533318390082" frameborder="0" allowfullscreen id="mapa"></iframe>
+                        <button type="button" class="close" data-dismiss="modal">
+                        </button>
+                        </div>
+
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">VOLTAR</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/parque.jpg" alt="" class="img-thumbnail">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Parque Ecológico</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <label for="">Descrição:</label>
+                        <p>Local perfeito para pescadores e para quem curte tirar lindas fotos e curtir belas paisagens! Ao pôr-do-sol então, o espetáculo fica completo!</p>
+                        <a href="" class="btn btn-primary" data-toggle="modal" data-target="#local3" id="btnLocal">LOCALIZAÇÃO</a>
+                        <a href="" class="btn btn-success" data-toggle="modal" data-target="#parque">SOBRE</a><br><br>
+
+                        <div class="modal" id="parque" tabindex="-1" role="dialog">
+                             <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                   <div class="modal-header">
+                                      <h5 class="modal-title">PARQUE ECOLÓGICO</h5>
+                                            <button type="button" class="close" data-dismiss="modal">
+                                          </button>
+                                        </div>
+
+                        <div class="modal-body">
+                            <div class="row h6">
+                                <h6>DESCRIÇÃO: Este bacharel faz o planejamento, a organização, a promoção e a divulgação de viagens, eventos e atividades de lazer e de negócios. Elabora roteiros, acompanha turistas, organiza feiras, congressos e exposições. Em agências, operadoras e sites turísticos, comanda as vendas de passagens e reservas em hotéis.
+
+                                Pode gerenciar hotéis, empresas de eventos e empreendimentos de lazer, como parques temáticos. Em prefeituras e órgãos públicos, coordena a exploração turística de uma região, promovendo e divulgando as atrações locais. Você pode ingressar na carreira como tecnólogo.</h6>
+                           </div>
+                       </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#local3" id="btnLocal1">LOCALIZAÇÃO</button>
+                      <a href="turismo.html"><button type="button" class="btn btn-danger" data-dismiss="modal">SAIR</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="modal fade" id="local3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document" style="width: 50%; height: 500px";>
+                      <div id="map" class="modal-content">
+                        <div class="modal-header">
+                          <h5>LOCALIZAÇÃO</h5>
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3641.418263913369!2d-46.68096998488982!3d-24.12194508440748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce280e6bbd43ed%3A0x9a808204bd559fab!2sAv.+Monteiro+Lobato%2C+8000+-+Balne%C3%A1rio+Ita%C3%B3ca%2C+Mongagu%C3%A1+-+SP%2C+11730-000!5e0!3m2!1spt-BR!2sbr!4v1533318390082" frameborder="0" allowfullscreen id="mapa"></iframe>
+                        <button type="button" class="close" data-dismiss="modal">
+                        </button>
+                        </div>
+
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">VOLTAR</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="img/morro.jpg" alt="" class="img-thumbnail">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>Morro da Padroeira</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label for="">Descrição:</label>
+                            <p>Com mais de 15 metros de altura e cerca de 2,5 toneladas, instalada numa linda trilha urbana feita em uma passarela de madeira com 150 metros de extensão.</p>
+                            <a href="" class="btn btn-primary">LOCALIZAÇÃO</a>
+                            <a href="" class="btn btn-success" data-toggle="modal" data-target="#parque">SOBRE</a><br><br>
+
+                            <div class="modal" id="parque" tabindex="-1" role="dialog">
+                                 <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                       <div class="modal-header">
+                                          <h5 class="modal-title">PARQUE ECOLÓGICO</h5>
+                                                <button type="button" class="close" data-dismiss="modal">
+                                              </button>
+                                            </div>
+
+                            <div class="modal-body">
+                                <div class="row h6">
+                                    <h6>DESCRIÇÃO: Este bacharel faz o planejamento, a organização, a promoção e a divulgação de viagens, eventos e atividades de lazer e de negócios. Elabora roteiros, acompanha turistas, organiza feiras, congressos e exposições. Em agências, operadoras e sites turísticos, comanda as vendas de passagens e reservas em hotéis.
+
+Pode gerenciar hotéis, empresas de eventos e empreendimentos de lazer, como parques temáticos. Em prefeituras e órgãos públicos, coordena a exploração turística de uma região, promovendo e divulgando as atrações locais. Você pode ingressar na carreira como tecnólogo.</h6>
+                               </div>
+                           </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-primary" data-toggle="modal" data-target="#local4" id="btnLocal">LOCALIZAÇÃO</button>
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">SAIR</button>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/raul.jpg" alt="" class="img-thumbnail">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Teato Raul Cortez</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <label for="">Descrição:</label>
+                        <p>Local perfeito para pescadores e para quem curte tirar lindas fotos e curtir belas paisagens! Ao pôr-do-sol então, o espetáculo fica completo!</p>
+                        <a href="" class="btn btn-primary" data-toggle="modal" data-target="#local3" id="btnLocal">LOCALIZAÇÃO</a>
+                        <a href="" class="btn btn-success" data-toggle="modal" data-target="#parque">SOBRE</a><br><br>
+
+                        <div class="modal" id="parque" tabindex="-1" role="dialog">
+                             <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                   <div class="modal-header">
+                                      <h5 class="modal-title">PARQUE ECOLÓGICO</h5>
+                                            <button type="button" class="close" data-dismiss="modal">
+                                          </button>
+                                        </div>
+
+                        <div class="modal-body">
+                            <div class="row h6">
+                                <h6>DESCRIÇÃO: Este bacharel faz o planejamento, a organização, a promoção e a divulgação de viagens, eventos e atividades de lazer e de negócios. Elabora roteiros, acompanha turistas, organiza feiras, congressos e exposições. Em agências, operadoras e sites turísticos, comanda as vendas de passagens e reservas em hotéis.
+
+                                Pode gerenciar hotéis, empresas de eventos e empreendimentos de lazer, como parques temáticos. Em prefeituras e órgãos públicos, coordena a exploração turística de uma região, promovendo e divulgando as atrações locais. Você pode ingressar na carreira como tecnólogo.</h6>
+                           </div>
+                       </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#local3" id="btnLocal1">LOCALIZAÇÃO</button>
+                      <a href="turismo.html"><button type="button" class="btn btn-danger" data-dismiss="modal">SAIR</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="modal fade" id="local3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document" style="width: 50%; height: 500px";>
+                      <div id="map" class="modal-content">
+                        <div class="modal-header">
+                          <h5>LOCALIZAÇÃO</h5>
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3641.418263913369!2d-46.68096998488982!3d-24.12194508440748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce280e6bbd43ed%3A0x9a808204bd559fab!2sAv.+Monteiro+Lobato%2C+8000+-+Balne%C3%A1rio+Ita%C3%B3ca%2C+Mongagu%C3%A1+-+SP%2C+11730-000!5e0!3m2!1spt-BR!2sbr!4v1533318390082" frameborder="0" allowfullscreen id="mapa"></iframe>
+                        <button type="button" class="close" data-dismiss="modal">
+                        </button>
+                        </div>
+
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">VOLTAR</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/foto.jpg" alt="" class="img-thumbnail">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Teato Raul Cortez</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <label for="">Descrição:</label>
+                        <p>Local perfeito para pescadores e para quem curte tirar lindas fotos e curtir belas paisagens! Ao pôr-do-sol então, o espetáculo fica completo!</p>
+                        <a href="" class="btn btn-primary" data-toggle="modal" data-target="#local3" id="btnLocal">LOCALIZAÇÃO</a>
+                        <a href="" class="btn btn-success" data-toggle="modal" data-target="#parque">SOBRE</a><br><br>
+
+                        <div class="modal" id="parque" tabindex="-1" role="dialog">
+                             <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                   <div class="modal-header">
+                                      <h5 class="modal-title">PARQUE ECOLÓGICO</h5>
+                                            <button type="button" class="close" data-dismiss="modal">
+                                          </button>
+                                        </div>
+
+                        <div class="modal-body">
+                            <div class="row h6">
+                                <h6>DESCRIÇÃO: Este bacharel faz o planejamento, a organização, a promoção e a divulgação de viagens, eventos e atividades de lazer e de negócios. Elabora roteiros, acompanha turistas, organiza feiras, congressos e exposições. Em agências, operadoras e sites turísticos, comanda as vendas de passagens e reservas em hotéis.
+
+                                Pode gerenciar hotéis, empresas de eventos e empreendimentos de lazer, como parques temáticos. Em prefeituras e órgãos públicos, coordena a exploração turística de uma região, promovendo e divulgando as atrações locais. Você pode ingressar na carreira como tecnólogo.</h6>
+                           </div>
+                       </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#local3" id="btnLocal1">LOCALIZAÇÃO</button>
+                      <a href="turismo.html"><button type="button" class="btn btn-danger" data-dismiss="modal">SAIR</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="modal fade" id="local3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document" style="width: 50%; height: 500px";>
+                      <div id="map" class="modal-content">
+                        <div class="modal-header">
+                          <h5>LOCALIZAÇÃO</h5>
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3641.418263913369!2d-46.68096998488982!3d-24.12194508440748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce280e6bbd43ed%3A0x9a808204bd559fab!2sAv.+Monteiro+Lobato%2C+8000+-+Balne%C3%A1rio+Ita%C3%B3ca%2C+Mongagu%C3%A1+-+SP%2C+11730-000!5e0!3m2!1spt-BR!2sbr!4v1533318390082" frameborder="0" allowfullscreen id="mapa"></iframe>
+                        <button type="button" class="close" data-dismiss="modal">
+                        </button>
+                        </div>
+
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">VOLTAR</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card">
+                <img src="img/festa.jpg" alt="" class="img-thumbnail">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Réveillon</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <label for="">Descrição:</label>
+                        <p>Local perfeito para pescadores e para quem curte tirar lindas fotos e curtir belas paisagens! Ao pôr-do-sol então, o espetáculo fica completo!</p>
+                        <a href="" class="btn btn-primary" data-toggle="modal" data-target="#local3" id="btnLocal">LOCALIZAÇÃO</a>
+                        <a href="" class="btn btn-success" data-toggle="modal" data-target="#parque">SOBRE</a><br><br>
+
+                        <div class="modal" id="parque" tabindex="-1" role="dialog">
+                             <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                   <div class="modal-header">
+                                      <h5 class="modal-title">PARQUE ECOLÓGICO</h5>
+                                            <button type="button" class="close" data-dismiss="modal">
+                                          </button>
+                                        </div>
+
+                        <div class="modal-body">
+                            <div class="row h6">
+                                <h6>DESCRIÇÃO: Este bacharel faz o planejamento, a organização, a promoção e a divulgação de viagens, eventos e atividades de lazer e de negócios. Elabora roteiros, acompanha turistas, organiza feiras, congressos e exposições. Em agências, operadoras e sites turísticos, comanda as vendas de passagens e reservas em hotéis.
+
+                                Pode gerenciar hotéis, empresas de eventos e empreendimentos de lazer, como parques temáticos. Em prefeituras e órgãos públicos, coordena a exploração turística de uma região, promovendo e divulgando as atrações locais. Você pode ingressar na carreira como tecnólogo.</h6>
+                           </div>
+                       </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#local3" id="btnLocal1">LOCALIZAÇÃO</button>
+                      <a href="turismo.html"><button type="button" class="btn btn-danger" data-dismiss="modal">SAIR</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="modal fade" id="local3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document" style="width: 50%; height: 500px";>
+                      <div id="map" class="modal-content">
+                        <div class="modal-header">
+                          <h5>LOCALIZAÇÃO</h5>
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3641.418263913369!2d-46.68096998488982!3d-24.12194508440748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce280e6bbd43ed%3A0x9a808204bd559fab!2sAv.+Monteiro+Lobato%2C+8000+-+Balne%C3%A1rio+Ita%C3%B3ca%2C+Mongagu%C3%A1+-+SP%2C+11730-000!5e0!3m2!1spt-BR!2sbr!4v1533318390082" frameborder="0" allowfullscreen id="mapa"></iframe>
+                        <button type="button" class="close" data-dismiss="modal">
+                        </button>
+                        </div>
+
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">VOLTAR</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+              </div>
+            </div>
+          </div>
+        </div>-->
+
+
+</body>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</html>

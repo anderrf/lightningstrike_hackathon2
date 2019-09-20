@@ -1,0 +1,139 @@
+body{
+    background-image: url('../img/monga.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    margin-top: -20px;
+    margin-bottom: 200px;
+}
+
+.jumbotron{
+    margin-top: -0%;
+}
+
+#jumboh1{
+  margin-top: -20px;
+  background: linear-gradient(to bottom, aquamarine, turquoise);
+  color: white;
+}
+
+.navbar-brand{
+    height: 12vh;
+}
+
+.navbar-brand img{
+    height: 6vh;
+    width: 6vh;
+}
+
+.imgindex{
+    width: 70%;
+}
+
+.rw{
+    background-color: white;
+}
+
+.rg{
+    background-color: whitesmoke;
+}
+
+.col-md-6 img{
+    text-align: center;
+}
+
+.jumbotron>h1{
+    color: white;
+}
+
+li a{
+  font-size: 18px;
+}
+
+li a :link{
+  color: blue;
+}
+
+li a :hover{
+  color: blue;
+}
+
+.linha{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 500px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card>img{
+  margin: 10px;
+    max-width: 70%;
+    height: 25vh;
+}
+
+.card>.row{
+    margin: auto;
+    text-align: justify;
+}
+.img-thumbnail{
+  width: 90%;
+}
+h2{
+  font-size: 30px;
+  margin-left: 20px;
+}
+.ajuda{
+  font-size: 30px;
+  text-align: center;
+}
+.row linha{
+  text-align: center;
+}
+a img{
+height: auto;
+width: 36%;
+}
+#navMenu{
+  margin-top: 0.7%;
+}
+embed{
+margin-left: 18%;
+}
+#mapmonga{
+  margin-left: 5%;
+}
+#descri{
+  font-size: 25px;
+  margin-left: 5%;
+}
+#descrição{
+  font-size: 25px;
+}
+h3{
+  font-style: bold;
+  text-align: center;
+}
+
+.Event{
+  height: 550px;
+}
+
+.restaurante{
+  height: 450px;
+}
+
+.rajuda{
+  text-align: center;
+}
